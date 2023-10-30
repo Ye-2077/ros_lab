@@ -1,0 +1,21 @@
+<launch>
+    <group>
+        <node pkg = "turtlesim" name = "turtle1" type = "turtlesim_node" />
+    </group>
+    
+    <group>
+        <node pkg = "turtlesim" name = "turtle2" type = "turtlesim_node" />
+    </group>
+    
+    <node pkg = "turtlesim" name = "mimic" type = "mimic">
+        <!-- the input of mimic is vel and ang cmd -->
+        <remap from = "input" to = "turtlesim1/turtle1" /> 
+        <!-- the output of mimic is position and pose -->
+        <remap from = "output" to = "turtlesim2/turtle1" />
+    </node>
+
+    <node pkg = "turtlesim" 
+          type = "turtle_teleop_key" 
+          name = "turtle_teleop_key" 
+          output = "screen"/>
+</launch>
