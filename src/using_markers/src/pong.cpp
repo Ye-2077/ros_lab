@@ -384,6 +384,7 @@ private:
     // Control for player 1
     int_marker.name = "paddle0";
     int_marker.pose.position.x = -PLAYER_X;
+    
     server_.insert( int_marker );
     server_.setCallback( int_marker.name, boost::bind( &PongGame::processPaddleFeedback, this, 0, _1 ) );
 
@@ -419,6 +420,8 @@ private:
     // Display for player 2
     int_marker.name = "paddle1_display";
     int_marker.pose.position.x = PLAYER_X;
+
+    marker.scale.y = PADDLE_SIZE*5;
 
     marker.color.g = 0.5;
     marker.color.b = 1.0;

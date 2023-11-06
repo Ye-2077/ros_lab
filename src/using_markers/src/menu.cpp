@@ -151,10 +151,18 @@ void initMenu()
   MenuHandler::EntryHandle entry = menu_handler.insert( h_first_entry, "deep" );
   entry = menu_handler.insert( entry, "sub" );
   entry = menu_handler.insert( entry, "menu", &deepCb );
+
+  MenuHandler::EntryHandle entry2 = menu_handler.insert( h_first_entry, "deep2" );
+  entry2 = menu_handler.insert( entry2, "sub2" );
+  entry2 = menu_handler.insert( entry2, "menu2", &deepCb );
   
   menu_handler.setCheckState( menu_handler.insert( "Show First Entry", &enableCb ), MenuHandler::CHECKED );
 
   MenuHandler::EntryHandle sub_menu_handle = menu_handler.insert( "Switch" );
+  MenuHandler::EntryHandle sub_ent = menu_handler.insert( sub_menu_handle, "sub2" );
+  sub_ent = menu_handler.insert( sub_ent, "sub3", &deepCb );
+  sub_ent = menu_handler.insert( sub_ent, "sub4", &deepCb );
+
 
   for ( int i=0; i<5; i++ )
   {
