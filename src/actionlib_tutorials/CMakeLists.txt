@@ -72,6 +72,7 @@ add_action_files(
   FILES 
   DoDishes.action
   Fibonacci.action
+  forward.action
 )
 
 
@@ -151,31 +152,18 @@ target_link_libraries(SimpleActionClient ${catkin_LIBRARIES})
 add_executable(SimpleActionServer src/SimpleActionServer.cpp)
 target_link_libraries(SimpleActionServer ${catkin_LIBRARIES})
 
-
 add_executable(fibonacci_server src/fibonacci_server.cpp)
-
-target_link_libraries(
-  fibonacci_server
-  ${catkin_LIBRARIES}
-)
-
-add_dependencies(
-  fibonacci_server
-  ${actionlib_tutorials_EXPORTED_TARGETS}
-)
-
+target_link_libraries(fibonacci_server ${catkin_LIBRARIES})
+add_dependencies(fibonacci_server ${actionlib_tutorials_EXPORTED_TARGETS})
 
 add_executable(fibonacci_client src/fibonacci_client.cpp)
+target_link_libraries(fibonacci_client ${catkin_LIBRARIES})
+add_dependencies(fibonacci_client ${actionlib_tutorials_EXPORTED_TARGETS})
 
-target_link_libraries( 
-  fibonacci_client
-  ${catkin_LIBRARIES}
-)
 
-add_dependencies(
-  fibonacci_client
-  ${actionlib_tutorials_EXPORTED_TARGETS}
-)
+add_executable(forward_server src/forward.cpp)
+target_link_libraries(forward_server ${catkin_LIBRARIES})
+add_dependencies(forward_server ${actionlib_tutorials_EXPORTED_TARGETS})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

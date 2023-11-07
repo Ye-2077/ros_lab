@@ -36,12 +36,15 @@ public:
     feedback_.sequence.clear();
     feedback_.sequence.push_back(0);
     feedback_.sequence.push_back(1);
+    feedback_.sequence.push_back(2);
 
     // publish info to the console for the user
-    ROS_INFO("%s: Executing, creating fibonacci sequence of order %i with seeds %i, %i", action_name_.c_str(), goal->order, feedback_.sequence[0], feedback_.sequence[1]);
+    ROS_INFO("%s: Executing, creating fibonacci sequence of order %i with seeds %i, %i, %i", action_name_.c_str(), 
+              goal->order, feedback_.sequence[0], feedback_.sequence[1], feedback_.sequence[2]);
 
     // start executing the action
-    for(int i=1; i<=goal->order; i++)
+    
+    for(int i=0; i<=goal->order; i++)
     {
       // check that preempt has not been requested by the client
       if (as_.isPreemptRequested() || !ros::ok())
@@ -52,11 +55,11 @@ public:
         success = false;
         break;
       }
-      feedback_.sequence.push_back(feedback_.sequence[i] + feedback_.sequence[i-1]);
+      feedback_.sequence.push_back(feedback_.sequence[i-2] + feedback_.sequence[i-1] + feedback_.sequence[i]);
       // publish the feedback
       as_.publishFeedback(feedback_);
       // this sleep is not necessary, the sequence is computed at 1 Hz for demonstration purposes
-      r.sleep();
+      // r.sleep();
     }
 
     if(success)

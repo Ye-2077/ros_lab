@@ -18,11 +18,11 @@ int main (int argc, char **argv)
   ROS_INFO("Action server started, sending goal.");
   // send a goal to the action
   actionlib_tutorials::FibonacciGoal goal;
-  goal.order = 20;
+  goal.order = 2147483647;
   ac.sendGoal(goal);
 
   //wait for the action to return
-  bool finished_before_timeout = ac.waitForResult(ros::Duration(30.0));
+  bool finished_before_timeout = ac.waitForResult(ros::Duration(2000000.0));
 
   if (finished_before_timeout)
   {
