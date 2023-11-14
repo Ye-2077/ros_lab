@@ -26,16 +26,16 @@ int main(int argc, char** argv){
     sensor_msgs::LaserScan scan;
     scan.header.stamp = scan_time;
     scan.header.frame_id = "sensor_frame";
-    scan.angle_min = -1.57;
-    scan.angle_max = 1.57;
-    scan.angle_increment = 3.14 / num_readings;
+    scan.angle_min = -3.14;
+    scan.angle_max = 3.14;
+    scan.angle_increment = 0.75*2*3.14 / num_readings;
     scan.time_increment = (1 / laser_frequency) / (num_readings);
     scan.range_min = 0.0;
     scan.range_max = 100.0;
 
     scan.ranges.resize(num_readings);
     scan.intensities.resize(num_readings);
-    for(unsigned int i = 0; i < num_readings; ++i){
+    for(unsigned int i = 0; i < num_readings*3/4; ++i){
       scan.ranges[i] = ranges[i];
       scan.intensities[i] = intensities[i];
     }

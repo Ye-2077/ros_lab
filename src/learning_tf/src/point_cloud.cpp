@@ -7,7 +7,7 @@ int main(int argc, char** argv){
   ros::NodeHandle n;
   ros::Publisher cloud_pub = n.advertise<sensor_msgs::PointCloud>("/cloud", 50);
 
-  unsigned int num_points = 2000;
+  unsigned int num_points = 200;
 
   int count = 0;
   ros::Rate r(1.0);
@@ -27,7 +27,7 @@ int main(int argc, char** argv){
     for(unsigned int i = 0; i < num_points; ++i){
       cloud.points[i].x = (0.1*cos(0.1*i) + 0.1*sin(0.1*i));
       cloud.points[i].y = (0.1*sin(0.1*i) - 0.1*cos(0.1*i));
-      cloud.points[i].z = 1 + cos(i/100.0);
+      cloud.points[i].z = 0; //1 + cos(i/100.0);
       cloud.channels[0].values[i] = 100 * i;
     }
 

@@ -1,0 +1,10 @@
+[ 12%] Built target laser_pub
+[ 25%] Built target point_cloud
+[ 37%] Built target odomexam
+[ 68%] Built target turtle_tf_broadcaster
+[ 68%] Built target imu_data
+[ 75%] Built target frame_tf_broadcaster
+[ 87%] Built target turtle_tf_listener
+[ 93%] [32mBuilding CXX object CMakeFiles/laser_scan.dir/src/laser_scan.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/learning_tf/lib/learning_tf/laser_scan[0m
+[100%] Built target laser_scan
