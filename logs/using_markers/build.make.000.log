@@ -1,0 +1,21 @@
+[ 42%] [32mBuilding CXX object CMakeFiles/basic_shapes.dir/src/basic_shapes.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/basic_controls.dir/src/basic_controls.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/points_and_lines.dir/src/points_and_lines.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/menu.dir/src/menu.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cube.dir/src/cube.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/using_markers/lib/using_markers/basic_shapes[0m
+[ 57%] Built target basic_shapes
+[ 64%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/using_markers/lib/using_markers/points_and_lines[0m
+[ 64%] Built target points_and_lines
+[ 71%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/using_markers/lib/using_markers/simple_marker[0m
+[ 78%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/using_markers/lib/using_markers/pong[0m
+[ 78%] Built target simple_marker
+[ 85%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/using_markers/lib/using_markers/cube[0m
+[ 85%] Built target pong
+[ 85%] Built target cube
+[ 92%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/using_markers/lib/using_markers/basic_controls[0m
+[ 92%] Built target basic_controls
+[100%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/using_markers/lib/using_markers/menu[0m
+[100%] Built target menu

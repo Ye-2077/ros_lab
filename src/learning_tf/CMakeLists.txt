@@ -160,6 +160,21 @@ target_link_libraries(turtle_tf_listener ${catkin_LIBRARIES})
 add_executable(frame_tf_broadcaster src/frame_tf_broadcaster.cpp)
 target_link_libraries(frame_tf_broadcaster ${catkin_LIBRARIES})
 
+add_executable(odomexam src/odomexam.cpp)
+target_link_libraries(odomexam ${catkin_LIBRARIES})
+
+add_executable(laser_pub src/laser_pub.cpp)
+target_link_libraries(laser_pub ${catkin_LIBRARIES})
+
+add_executable(laser_scan src/laser_scan.cpp)
+target_link_libraries(laser_scan ${catkin_LIBRARIES})
+
+add_executable(point_cloud src/point_cloud.cpp)
+target_link_libraries(point_cloud ${catkin_LIBRARIES})
+
+add_executable(imu_data src/imu_data.cpp)
+target_link_libraries(imu_data ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
