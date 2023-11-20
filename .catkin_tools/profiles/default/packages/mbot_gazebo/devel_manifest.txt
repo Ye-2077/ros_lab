@@ -1,0 +1,5 @@
+lab7_2/mbot_gazebo
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_gazebo/cmake.lock /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/./cmake.lock
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_gazebo/share/mbot_gazebo/cmake/mbot_gazeboConfig-version.cmake /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/mbot_gazebo/cmake/mbot_gazeboConfig-version.cmake
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_gazebo/share/mbot_gazebo/cmake/mbot_gazeboConfig.cmake /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/mbot_gazebo/cmake/mbot_gazeboConfig.cmake
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_gazebo/lib/pkgconfig/mbot_gazebo.pc /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/lib/pkgconfig/mbot_gazebo.pc

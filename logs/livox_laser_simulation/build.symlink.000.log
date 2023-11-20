@@ -1,0 +1,4 @@
+Symlinking /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/livox_laser_simulation/cmake/livox_laser_simulationConfig-version.cmake
+Symlinking /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/livox_laser_simulation/cmake/livox_laser_simulationConfig.cmake
+Symlinking /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/lib/liblivox_laser_simulation.so
+Symlinking /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/lib/pkgconfig/livox_laser_simulation.pc

@@ -1,0 +1,12 @@
+[ 25%] Built target odomexam
+[ 25%] Built target laser_scan
+[ 37%] Built target laser_pub
+[ 50%] Built target turtle_tf_broadcaster
+[ 56%] [32mBuilding CXX object CMakeFiles/imu_data.dir/src/imu_data.cpp.o[0m
+[ 68%] Built target turtle_tf_listener
+[ 81%] Built target frame_tf_broadcaster
+[ 87%] [32mBuilding CXX object CMakeFiles/point_cloud.dir/src/point_cloud.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/learning_tf/lib/learning_tf/imu_data[0m
+[100%] [32m[1mLinking CXX executable /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/learning_tf/lib/learning_tf/point_cloud[0m
+[100%] Built target imu_data
+[100%] Built target point_cloud

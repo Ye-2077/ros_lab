@@ -1,0 +1,5 @@
+lab7_2/mbot_description
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_description/cmake.lock /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/./cmake.lock
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_description/share/mbot_description/cmake/mbot_descriptionConfig-version.cmake /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/mbot_description/cmake/mbot_descriptionConfig-version.cmake
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_description/share/mbot_description/cmake/mbot_descriptionConfig.cmake /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/mbot_description/cmake/mbot_descriptionConfig.cmake
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_description/lib/pkgconfig/mbot_description.pc /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/lib/pkgconfig/mbot_description.pc

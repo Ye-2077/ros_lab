@@ -1,0 +1,5 @@
+lab7_2/mbot_navigation
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_navigation/cmake.lock /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/./cmake.lock
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_navigation/share/mbot_navigation/cmake/mbot_navigationConfig-version.cmake /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/mbot_navigation/cmake/mbot_navigationConfig-version.cmake
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_navigation/share/mbot_navigation/cmake/mbot_navigationConfig.cmake /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/mbot_navigation/cmake/mbot_navigationConfig.cmake
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_navigation/lib/pkgconfig/mbot_navigation.pc /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/lib/pkgconfig/mbot_navigation.pc

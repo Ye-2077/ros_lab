@@ -1,0 +1,14 @@
+[01m[K/home/ye/Documents/Course/ROS/lecture/lec_ws/src/actionlib_tutorials/src/SimpleActionClient.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kactionlib_tutorials/DoDishesAction.h: No such file or directory
+    1 | #include [01;31m[K<actionlib_tutorials/DoDishesAction.h>[m[K // Note: "Action" is appended
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/ye/Documents/Course/ROS/lecture/lec_ws/src/actionlib_tutorials/src/SimpleActionServer.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kactionlib_tutorials/DoDishesAction.h: No such file or directory
+    1 | #include [01;31m[K<actionlib_tutorials/DoDishesAction.h>[m[K // Note: "Action" is appended
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/SimpleActionClient.dir/build.make:76: CMakeFiles/SimpleActionClient.dir/src/SimpleActionClient.cpp.o] Error 1
+make[2]: *** [CMakeFiles/SimpleActionServer.dir/build.make:76: CMakeFiles/SimpleActionServer.dir/src/SimpleActionServer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1957: CMakeFiles/SimpleActionClient.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:1983: CMakeFiles/SimpleActionServer.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,6 @@
+lab7_2/mbot_bringup
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_bringup/cmake.lock /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/./cmake.lock
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_bringup/share/mbot_bringup/cmake/mbot_bringupConfig.cmake /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/mbot_bringup/cmake/mbot_bringupConfig.cmake
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_bringup/share/mbot_bringup/cmake/mbot_bringupConfig-version.cmake /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/share/mbot_bringup/cmake/mbot_bringupConfig-version.cmake
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_bringup/lib/mbot_bringup/mbot_bringup /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/lib/mbot_bringup/mbot_bringup
+/home/ye/Documents/Course/ROS/lecture/lec_ws/devel/.private/mbot_bringup/lib/pkgconfig/mbot_bringup.pc /home/ye/Documents/Course/ROS/lecture/lec_ws/devel/lib/pkgconfig/mbot_bringup.pc
